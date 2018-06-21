@@ -7,5 +7,5 @@ function nestedTarget() {
 }
 
 function increaseRankBy(n) {
-  return document.querySelector('div#grand-node')
+  return document.querySelectorAll('div#grand-node')
 }
