@@ -12,3 +12,7 @@ function increaseRankBy(n) {
     rank[i].innerHTML = Number.parseInt((i + 1).toString());
   }
 }
+
+function deepestChild() {
+  return document.querySelector('div div div')
+}
